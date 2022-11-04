@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    background-image: url("/img/portada2.jpg");
+    background-image: url(/img/portada2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
