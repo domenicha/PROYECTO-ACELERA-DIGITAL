@@ -17,6 +17,6 @@
 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    background-color: blue;
+    background-color:;
     width: 100%;
 }
