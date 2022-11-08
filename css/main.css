@@ -3,6 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-.titulo,.subtitulo1,.call,.num-call{
+
+.titulo,.titulo-blanco,.subtitulo1,.subtitulo1-gris,.call,.num-call{
     font-family: 'PF Regal Display Pro';
 }
+
+.titulo{
+    color: #000000;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.titulo-blanco{
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+}
+
+.subtitulo1{
+    color: #DF991B;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.subtitulo1-gris{
+    color: #B4B7B7;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    }
