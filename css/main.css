@@ -4,44 +4,78 @@
     box-sizing: border-box;
 }
 
-.titulo,.titulo-blanco,.subtitulo1,.subtitulo1-gris,.subtitulo2,.call,.num-call{
+.titulo-izq,.titulo-der,.titulo-center,.titulo-blanco-izq,.subtitulo1-izq,.subtitulo1-der,.subtitulo1-center,.subtitulo1-gris-izq,.subtitulo2,.call,.num-call{
     font-family: 'PF Regal Display Pro';
 }
 
-<!--ojo-->
-.contenedor{
-    padding: 60px 0;
+.contenedor,footer{
+    padding: 30px 0;
     width: 90%;
     max-width: 1000px;
     margin:auto;
     overflow: hidden
 }
 
-.titulo{
+.titulo-izq{
     color: #000000;
     font-size: 80px;
     font-weight: 500;
-    line-height: 45px;
-}
-
-.titulo-blanco{
-    color: #FFFFFF;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 45px;
+    line-height: 70px;
     text-align: left;
 }
 
-.subtitulo1{
+.titulo-der{
+    color: #000000;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: right;
+}
+
+.titulo-center{
+    color: #000000;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: center;
+}
+
+.titulo-blanco-izq{
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+}
+
+.subtitulo1-izq{
     color: #DF991B;
     font-size: 40px;
     font-weight: 400;
     line-height: 45px;
+    text-align: left;
 }
 
-.subtitulo1-gris{
+.subtitulo1-der{
+    color: #DF991B;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: right;
+}
+
+.subtitulo1-center{
+    color: #DF991B;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+}
+
+.subtitulo1-gris-izq{
     color: #B4B7B7;
     font-size: 40px;
     font-weight: 400;
     line-height: 45px;
+    text-align: left;
     }
