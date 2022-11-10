@@ -1,10 +1,9 @@
 header {
-    background:#00000073, url(../img/portada2.jpg);
+    background: linear-gradient( #0000005b 0%, #0000004a 0%),url(../img/portada2.jpg);
     background-size: cover;
-    height: 300vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-   
   }
 
 *{
