@@ -1,3 +1,9 @@
+.bg-primary {
+    background-image: url(http://2.bp.blogspot.com/-xmjmQzG1SE8/VC2L9UZNYbI/AAAAAAAAikU/QGO0KFnjANk/s1600/Abstract%2BTriangles%2BWallpapers%2B2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +14,7 @@
     font-family: 'PF Regal Display Pro';
 }
 
-.contenedor,footer{
+.contenedor{
     padding: 30px 0;
     width: 90%;
     max-width: 1000px;
@@ -78,4 +84,14 @@
     font-weight: 400;
     line-height: 45px;
     text-align: left;
-    }
+}
+
+footer{
+    padding: 60px 60px;
+    width: 100%;
+    max-width: 1000px;
+    background-color:#000000;
+    background-size: cover;
+    color:#B4B7B7;
+    overflow: hidden
+}
