@@ -1,7 +1,10 @@
-.bg-primary {
-    background-image: url(http://2.bp.blogspot.com/-xmjmQzG1SE8/VC2L9UZNYbI/AAAAAAAAikU/QGO0KFnjANk/s1600/Abstract%2BTriangles%2BWallpapers%2B2.jpg);
+header {
+    background:#00000073, url(../img/portada2.jpg);
     background-size: cover;
+    height: 300vh;
     background-position: center;
+    background-repeat: no-repeat;
+   
   }
 
 *{
