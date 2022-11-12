@@ -1,3 +1,7 @@
+.titulo-izq,.titulo-der,.titulo-center,.titulo-blanco-izq,.subtitulo1-izq,.subtitulo1-der,.subtitulo1-center,.subtitulo1-gris-izq,.subtitulo2,.call,.num-call{
+    font-family: 'PF Regal Display Pro';
+}
+
 header {
     background: linear-gradient( #00000074 0%, #00000074 0%),url(../img/portada2.jpg);
     background-size: cover;
@@ -13,7 +17,7 @@ nav{
 }
 
 nav > a{
-    font-family: 'Brandon Grotesque';
+    font-family:'Brandon Grotesque';
     font-weight:390;
     font-size:20px ;
     text-decoration: none;
@@ -21,15 +25,10 @@ nav > a{
     text-align: center;
 }
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.titulo-izq,.titulo-der,.titulo-center,.titulo-blanco-izq,.subtitulo1-izq,.subtitulo1-der,.subtitulo1-center,.subtitulo1-gris-izq,.subtitulo2,.call,.num-call{
-    font-family: 'PF Regal Display Pro';
 }
 
 .contenedor{
@@ -45,6 +44,10 @@ nav > a{
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+}
+
+.properties-for-sale,.properties-for-rent,.contenedor.developments,.contenedor.services,.contenedor.join-the-list{
+    margin-top: 60px;
 }
 
 .titulo-izq{
