@@ -31,12 +31,7 @@ nav > a{
     box-sizing: border-box;
 }
 
-.contenedor{
-    padding: 60px 0;
-    width: 100%;
-    max-width: 1000px;
-    overflow: hidden;
-}
+
 
 .contenedor.join-the-list{
     padding: 60px 0;
@@ -125,6 +120,9 @@ nav > a{
     overflow: hidden;
 }
 
+.for-sale-der{
+    margin-top: 120px;
+}
 
 .for-rent{
     display:flex;
@@ -141,6 +139,15 @@ nav > a{
     min-height: 300px;
     min-width: 300px;
     margin: 10px;
+}
+
+.for-rent-izq{
+    margin-top: 120px;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-evenly;
 }
 
 
