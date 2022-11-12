@@ -33,15 +33,7 @@ nav > a{
 
 
 
-.contenedor.join-the-list{
-    padding: 60px 0;
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
-
-.properties-for-sale,.properties-for-rent,.contenedor.developments,.contenedor.services,.contenedor.join-the-list{
+.properties-for-sale,.properties-for-rent,.contenedor.developments,.contenedor.join-the-list,.contenedor-services{
     margin-top: 60px;
 }
 
@@ -145,13 +137,6 @@ nav > a{
     margin-top: 120px;
 }
 
-.cards{
-    display:flex;
-    justify-content: space-evenly;
-}
-
-
-
 
 
 .contenedor.join-the-list{
@@ -160,9 +145,9 @@ nav > a{
     max-width: 1000px;
     background-color: #26282B;
     background-size: cover;
+    margin: auto;
     overflow: hidden;
 }
-
 
 
 
