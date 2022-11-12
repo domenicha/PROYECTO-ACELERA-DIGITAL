@@ -137,18 +137,26 @@ nav > a{
     margin-top: 120px;
 }
 
+.cards{
+    display:flex;
+    justify-content: space-evenly;
+    overflow: hidden 
+}
 
 
 .contenedor.join-the-list{
     padding: 60px 60px;
     width: 100%;
-    max-width: 1000px;
     background-color: #26282B;
     background-size: cover;
-    margin: auto;
     overflow: hidden;
 }
 
+.join-subcaja{
+    display:flex;
+    justify-content: space-evenly;
+    overflow: hidden
+}
 
 
 
