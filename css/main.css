@@ -169,7 +169,14 @@ footer{
     overflow: hidden
 }
 
+.contenedor-footer{
+    display:flex;
+    justify-content: space-evenly;
+    overflow: hidden
+}
+
 .titulo-final{
     text-align: center;
+    margin: 50px;
 }
 
