@@ -101,6 +101,11 @@ nav > a{
     text-align: left;
 }
 
+
+/*OTRA SECCION*/
+
+
+
 .for-sale{
     display:flex;
     justify-content: space-evenly;
@@ -120,26 +125,62 @@ nav > a{
     text-align: right;
 }
 
+
+/*OTRA SECCION*/
+
+
 .for-rent{
     display:flex;
     justify-content: space-evenly;
 }
 
-.carrusel-rent{
-    display:flex;
-    justify-content: space-evenly;
-    overflow: hidden
-}
-
-.imagen-carrusel > img{
-    min-height: 300px;
-    min-width: 300px;
-    margin: 10px;
-}
-
 .for-rent-izq{
     margin-top: 120px;
 }
+
+.carrusel-rent{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-carrusel{
+    width:25%;
+    margin-bottom:15px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.imagen-carrusel > img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+}
+
+.hover-carrusel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background:  hsla(0, 0%, 100%, 0.58);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-carrusel:hover .hover-carrusel{
+    transform: scale(1);
+}
+
+
+/*OTRA SECCION*/
+
 
 .galeria-developments{
     display:flex;
@@ -161,18 +202,36 @@ nav > a{
     height: 100%;
     object-fit:cover;
     display: block;
-    margin: 20px; ###############
+    margin: 20px;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background:  hsla(0, 0%, 100%, 0.58);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-developments:hover .hover-galeria{
+    transform: scale(1);
 }
 
 
+/*OTRA SECCION: falta cambiar la letra, tamaño y color*/
 
 
-.cards{
+.bloques{
     display:flex;
     justify-content: space-evenly;
     overflow: hidden 
 }
-
 
 .contenedor.join-the-list{
     padding: 60px 60px;
@@ -188,6 +247,8 @@ nav > a{
     overflow: hidden
 }
 
+
+/*OTRA SECCION: falta cambiar la letra y tamaño*/
 
 
 footer{
