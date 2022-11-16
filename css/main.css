@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .titulo-izq,.titulo-der,.titulo-center,.titulo-blanco-izq,.subtitulo1-izq,.subtitulo1-der,.subtitulo1-center,.subtitulo1-gris-izq,.subtitulo2,.call,.num-call{
     font-family: 'PF Regal Display Pro';
 }
@@ -25,11 +31,7 @@ nav > a{
     text-align: center;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 
@@ -102,8 +104,7 @@ nav > a{
 }
 
 
-/*OTRA SECCION*/
-
+/*WORLDWIDE GALLERY PROPERTIES FOR SALE OTRA SECCION: Darle esapacio a los textos*/
 
 
 .for-sale{
@@ -126,7 +127,7 @@ nav > a{
 }
 
 
-/*OTRA SECCION*/
+/*WORLDWIDE GALLERY PROPERTIES FOR RENT OTRA SECCION: Darle esapacio a los textos*/
 
 
 .for-rent{
@@ -179,7 +180,7 @@ nav > a{
 }
 
 
-/*OTRA SECCION*/
+/*LUXURY PROPERTIES OTRA SECCION*/
 
 
 .galeria-developments{
@@ -224,7 +225,7 @@ nav > a{
 }
 
 
-/*OTRA SECCION: falta cambiar la letra, tamaño y color*/
+/* JOIN THE LIST OTRA SECCION: falta cambiar la letra, tamaño y color*/
 
 
 .bloques{
@@ -248,7 +249,7 @@ nav > a{
 }
 
 
-/*OTRA SECCION: falta cambiar la letra y tamaño*/
+/*FOOTER OTRA SECCION: falta cambiar la letra y tamaño*/
 
 
 footer{
