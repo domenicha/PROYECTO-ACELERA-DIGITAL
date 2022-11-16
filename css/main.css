@@ -33,7 +33,7 @@
     color: #FFFFFF;
 }
 
-.subtitulo1-izq,.subtitulo1-der.subtitulo1-center,.subtitulo1-gris-izq{
+.subtitulo1-izq,.subtitulo1-der,.subtitulo1-center,.subtitulo1-gris-izq{
     color: #DF991B;
     font-size: 40px;
     font-weight: 400;
@@ -81,7 +81,7 @@ nav > a{
 }
 
 
-/*WORLDWIDE GALLERY PROPERTIES FOR SALE OTRA SECCION: Darle esapacio a los textos*/
+/*WORLDWIDE GALLERY PROPERTIES FOR SALE*/
 
 
 .for-sale{
@@ -92,7 +92,6 @@ nav > a{
 .parrafo-derecho{
     text-align: right;
     margin: 90px 0 90px 0;
-    /*modificar*/
     font-family:'Brandon Grotesque';
     font-weight:330;
     line-height: 45px;
@@ -141,7 +140,7 @@ nav > a{
 }
 
 
-/*WORLDWIDE GALLERY PROPERTIES FOR RENT OTRA SECCION: Darle esapacio a los textos*/
+/*WORLDWIDE GALLERY PROPERTIES FOR RENT*/
 
 
 .for-rent{
@@ -152,7 +151,6 @@ nav > a{
 .parrafo-izquierdo{
     text-align: left;
     margin: 90px 0 90px 0;
-    /*modificar*/
     font-family:'Brandon Grotesque';
     font-weight:330;
     line-height: 45px;
@@ -211,7 +209,7 @@ nav > a{
 }
 
 
-/*LUXURY PROPERTIES OTRA SECCION*/
+/*LUXURY PROPERTIES*/
 
 
 .galeria-developments{
@@ -256,7 +254,7 @@ nav > a{
 }
 
 
-/* JOIN THE LIST OTRA SECCION: falta cambiar la letra, tamaño y color*/
+/* JOIN THE LIST*/
 
 
 .bloques{
@@ -280,7 +278,7 @@ nav > a{
 }
 
 
-/*FOOTER OTRA SECCION: falta cambiar la letra y tamaño*/
+/*FOOTER*/
 
 
 footer{
