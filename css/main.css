@@ -4,9 +4,58 @@
     box-sizing: border-box;
 }
 
+.properties-for-sale,.properties-for-rent,.contenedor.developments,.contenedor.join-the-list,.contenedor-services{
+    margin-top: 60px;
+}
+
+
 .titulo-izq,.titulo-der,.titulo-center,.titulo-blanco-izq,.subtitulo1-izq,.subtitulo1-der,.subtitulo1-center,.subtitulo1-gris-izq,.subtitulo2,.call,.num-call{
     font-family: 'PF Regal Display Pro';
 }
+
+.titulo-izq,.titulo-der,.titulo-center,.titulo-blanco-izq{
+    color: #000000;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+}
+
+.titulo-der{
+    text-align: right;
+}
+
+.titulo-center{
+    text-align: center;
+}
+
+.titulo-blanco-izq{
+    color: #FFFFFF;
+}
+
+.subtitulo1-izq,.subtitulo1-der.subtitulo1-center,.subtitulo1-gris-izq{
+    color: #DF991B;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+}
+
+.subtitulo1-der{
+    text-align: right;
+}
+
+.subtitulo1-center{
+    text-align: center;
+}
+
+.subtitulo1-gris-izq{
+    color: #B4B7B7;
+}
+
+
+/*HEADER*/
+
 
 header {
     background: linear-gradient( #00000074 0%, #00000074 0%),url(../img/portada2.jpg);
@@ -32,78 +81,6 @@ nav > a{
 }
 
 
-
-
-
-.properties-for-sale,.properties-for-rent,.contenedor.developments,.contenedor.join-the-list,.contenedor-services{
-    margin-top: 60px;
-}
-
-.titulo-izq{
-    color: #000000;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 70px;
-    text-align: left;
-}
-
-.titulo-der{
-    color: #000000;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 70px;
-    text-align: right;
-}
-
-.titulo-center{
-    color: #000000;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 70px;
-    text-align: center;
-}
-
-.titulo-blanco-izq{
-    color: #FFFFFF;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 70px;
-    text-align: left;
-}
-
-.subtitulo1-izq{
-    color: #DF991B;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 45px;
-    text-align: left;
-}
-
-.subtitulo1-der{
-    color: #DF991B;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 45px;
-    text-align: right;
-}
-
-.subtitulo1-center{
-    color: #DF991B;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 45px;
-    text-align: center;
-}
-
-.subtitulo1-gris-izq{
-    color: #B4B7B7;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 45px;
-    text-align: left;
-}
-
-
 /*WORLDWIDE GALLERY PROPERTIES FOR SALE OTRA SECCION: Darle esapacio a los textos*/
 
 
@@ -112,18 +89,55 @@ nav > a{
     justify-content: space-evenly;
 }
 
+.parrafo-derecho{
+    text-align: right;
+    margin: 90px 0 90px 0;
+    /*modificar*/
+    font-family:'Brandon Grotesque';
+    font-weight:330;
+    line-height: 45px;
+    font-size:30px ;
+    letter-spacing: 0em;
+}
+
 .carrusel-sale{
     display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-carrusel{
+    width:25%;
+    margin-bottom:15px;
+    height: 500px;
     overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
 
-.for-sale-der{
-    margin-top: 120px;
+.imagen-carrusel > img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
 }
 
-.parrafo-derecho{
-    text-align: right;
+.hover-carrusel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background:  hsla(0, 0%, 100%, 0.58);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-carrusel:hover .hover-carrusel{
+    transform: scale(1);
 }
 
 
@@ -135,8 +149,15 @@ nav > a{
     justify-content: space-evenly;
 }
 
-.for-rent-izq{
-    margin-top: 120px;
+.parrafo-izquierdo{
+    text-align: left;
+    margin: 90px 0 90px 0;
+    /*modificar*/
+    font-family:'Brandon Grotesque';
+    font-weight:330;
+    line-height: 45px;
+    font-size:30px ;
+    letter-spacing: 0em;
 }
 
 .carrusel-rent{
@@ -177,6 +198,16 @@ nav > a{
 
 .imagen-carrusel:hover .hover-carrusel{
     transform: scale(1);
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewAllProp{
+    margin:0 25% 0 25%
 }
 
 
