@@ -141,6 +141,32 @@ nav > a{
     margin-top: 120px;
 }
 
+.galeria-developments{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-developments{
+    width:25%;
+    margin-bottom:15px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.imagen-developments > img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+    margin: 20px; ###############
+}
+
+
+
+
 .cards{
     display:flex;
     justify-content: space-evenly;
