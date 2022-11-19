@@ -80,6 +80,11 @@ nav > a{
     text-align: center;
 }
 
+.stickymenu{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*WORLDWIDE GALLERY PROPERTIES FOR SALE*/
 
