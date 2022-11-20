@@ -84,7 +84,7 @@ nav > a{
     text-align: center;
 }
 
-.stickymenu{ /*MODIFICAR POR "menu-lateral"*/
+.menu-lateral{
      position: fixed;
     top: 150px;
     display: flex;
@@ -93,7 +93,7 @@ nav > a{
     z-index: 3 ;
 }
 
-.stickymenu div{ /*MODIFICAR POR "menu-lateral"*/
+.menu-lateral div{
     margin: 5px;
 }
 
